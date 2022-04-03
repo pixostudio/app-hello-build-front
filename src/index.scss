@@ -1,0 +1,62 @@
+@import "antd/dist/antd.css";
+
+body {
+  margin: 0;
+  font-family: 'Montserrat Alternates', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  button.button{
+    background: rgb(63, 156, 218);
+    border: 1px solid #FFF;
+    height: auto;
+    width: 100%;
+  
+    &:hover, &:focus {
+      border: 1px solid #FFF;
+      background: rgb(32, 137, 208);
+    }
+  }
+  
+  h1 {
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: .1rem;
+  }
+  
+  .titleSec{
+    font-size: 20px;
+    margin-bottom: 2rem;
+    color: #FFF;
+  }
+
+  p.error {
+    color: #ff0000;
+    font-size: 14px;
+    line-height: 1;
+    margin: 1rem auto;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #bdbdbd; 
+  border-radius: 25px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a5a5a5; 
+}

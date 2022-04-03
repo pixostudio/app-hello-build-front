@@ -1,0 +1,21 @@
+footer {
+  margin: 1rem auto .5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .contentFooter {
+    color: #494949;
+    font-size: 12px;
+    font-weight: 400;
+
+    a {
+      font-weight: 700;
+      color: #2e2e2e;
+
+      &:hover {
+        color: #000000;
+      }
+    }
+  }
+}

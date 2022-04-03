@@ -1,46 +1,39 @@
-# Getting Started with Create React App
+<h1 align="center">💎 Prueba Hello Build | FRONT💎 </h1>
+<p>MERN project focused on the consumption of the GitHub API with login, registration and logout, consult own repositories and favorites. </p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://jestjs.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg" alt="jest" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://sass-lang.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40"/> </a> <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> </p>
 
-## Available Scripts
+<h2 class="code-line" data-line-start=4 data-line-end=5 ><a id="Requirements_4"></a>Requirements</h2>
+<ul>
+<li class="has-line-data" data-line-start="5" data-line-end="6">Version React 17.0.2</li>
+<li class="has-line-data" data-line-start="6" data-line-end="7">Version typescript 4.1.2</li>
+<li class="has-line-data" data-line-start="7" data-line-end="8">Version Node 14.17.1</li>
+<li class="has-line-data" data-line-start="8" data-line-end="10">Version NPM 6.14.13</li>
+<li class="has-line-data" data-line-start="9" data-line-end="11">Version Express 4.17.3</li>
+<li class="has-line-data" data-line-start="10" data-line-end="12">Version Mongo 6.2.4</li>
+</ul>
 
-In the project directory, you can run:
+<h2 class="code-line" data-line-start=10 data-line-end=11 ><a id="Installation_10"></a>Installation</h2>
+<ul>
+<li class="has-line-data" data-line-start="12" data-line-end="13">Clone repository</li>
+</ul>
+<pre><code class="has-line-data" data-line-start="14" data-line-end="16" class="language-sh">git <span class="hljs-built_in">clone https://github.com/kmilogarzonk/app-hello-build-front.git</span> 
+</code></pre>
+<ul>
+<li class="has-line-data" data-line-start="17" data-line-end="18">Entry to the project</li>
+</ul>
+<pre><code class="has-line-data" data-line-start="19" data-line-end="21" class="language-sh"><span class="hljs-built_in">cd</span> app-hello-build-front 
+</code></pre>
+<ul>
+<li class="has-line-data" data-line-start="22" data-line-end="23">Install node dependency</li>
+</ul>
+<pre><code class="has-line-data" data-line-start="24" data-line-end="26" class="language-sh">npm install
+</code></pre>
+<ul>
+<li class="has-line-data" data-line-start="27" data-line-end="28">Run the project</li>
+</ul>
+<pre><code class="has-line-data" data-line-start="29" data-line-end="31" class="language-sh">npm run dev
+</code></pre>
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+<p class="has-line-data" data-line-start="49" data-line-end="50">By <strong>Camilo Garzón</strong></p>

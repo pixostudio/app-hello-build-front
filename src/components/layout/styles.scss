@@ -1,0 +1,30 @@
+.container {
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #ff7070 100%);
+  height: 100vh;
+  width: 100vw;
+  overflow-y: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .cardContainer{
+    -webkit-box-shadow: -5px 5px 34px 13px rgba(19, 19, 19, 0.3);
+    -moz-box-shadow: -5px 5px 34px 13px rgba(19, 19, 19, 0.3);
+    box-shadow: -5px 5px 34px 13px rgba(19, 19, 19, 0.3);
+    width: 90%;
+    height: 87%;
+    background: rgba(235, 238, 238, 0.83);
+    padding: 1.5rem .5rem;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.508);
+
+    .content {
+      margin: 2rem 0 0;
+      overflow-y: auto;
+      padding: 0 2rem;
+      height: 85%;
+    }
+  }
+}

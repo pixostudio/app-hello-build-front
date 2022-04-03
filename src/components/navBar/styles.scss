@@ -1,0 +1,30 @@
+nav.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+  height: 10%;
+
+  .menu {
+
+    ul {
+      display: flex;
+      margin: 0;
+
+      li.itemMenu {
+        margin: 0 1rem;
+        list-style-type: none;
+
+        p {
+          color: #2e2e2e;
+          font-size: 14px;
+          font-weight: 600;
+
+          &:hover {
+            color: #000000;
+          }
+        }
+      }
+    }
+  }
+}

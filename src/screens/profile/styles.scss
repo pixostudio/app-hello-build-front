@@ -1,0 +1,16 @@
+.profile {
+
+  .head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .contentProfile {
+    margin-top: 1rem;
+
+    .contentReps {
+      margin-bottom: 2rem;
+    }
+  }
+}

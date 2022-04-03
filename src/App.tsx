@@ -1,25 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useState } from 'react';
+import './App.scss';
+import { LoaderBigScreen } from './components/loaders';
+import RouterConfig from './navigation/routerNavigation';
+import AuthService from './services/auth';
+import { callbackFinishLoad } from './services/utils';
+import AuthProvider from './providers/authProvider';
 
 function App() {
+
+  const [isLoading, setIsLoading] = useState(true)
+
+  useEffect(() => {
+    callbackFinishLoad().then(() => setIsLoading(false));
+    AuthService.validateSession();
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <AuthProvider>
+      <LoaderBigScreen loading={isLoading} />
+      <RouterConfig />
+    </AuthProvider>
   );
 }
 

@@ -1,0 +1,36 @@
+.loaderBigScreen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(10, 15, 26, 0.8);
+  backdrop-filter: blur(15px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+  overflow: hidden;
+
+  &.ocultLoader {
+    animation: hiddenLoader 0.9s linear 1;
+  }
+
+  .logoImg {
+    width: 125px;
+  }
+}
+
+/*Animations*/
+
+@keyframes hiddenLoader {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+  }
+}
